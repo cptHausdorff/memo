@@ -1,4 +1,4 @@
-Jupyter Notebook で Julia 1.6.1 を使う方法．
+Jupyter Notebook で Julia 1.6.1 を使う方法など
 
 __注意：試行錯誤の結果のメモなので，不要な手順も混ざっている可能性がある．__
 
