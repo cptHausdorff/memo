@@ -1,20 +1,27 @@
 Jupyter Notebook で Julia 1.6.1 を使う方法など
 
+- このファイルの場所 : https://github.com/cptHausdorff/memo/blob/main/jupyter.md
+
 __注意：試行錯誤の結果のメモなので，不要な手順も混ざっている可能性がある．__
 
 
 # Julia
 
-- Julia 1.6.1 をインストールした． [https://julialang.org/downloads/](https://julialang.org/downloads/) 
+- Julia 1.6.1 をインストールした． https://julialang.org/downloads/
 
 # Jpyter Notebook
 
 Anaconda をインストールすると Jupyter Notebook も使えるようになる．
 Julia の方で IJulia というパッケージをインストールすると Jupyter Notebook で Julia が使えるようになる．
 
-- Anaconda Individual Edition をインストールする．[https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
+- Anaconda Individual Edition をインストールする．https://www.anaconda.com/products/individual
 - Anaconda Prompt (anaconda3) を起動して「conda install -c conda-forge notebook」を入力して実行した．
-- Julia 1.6.1 を起動．REPL で ] とすると (@v1.6) pkg> が表示される．(@v1.6) pkg> add IJulia とした（I は大文字の i）．数分でインストールが終わる．
+- Julia 1.6.1 を起動．REPL で ] とすると (@v1.6) pkg> が表示される．(@v1.6) pkg> add IJulia とした．数分でインストールが終わる．
+- これで Jupyter Notebook (anaconda3) において Julia 1.6.1 が使えるようになっているはず
+
+# 既存の notebook の kernel を Julia 1.6.1 にする方法
+
+- Kernel -> Change kernel -> Julia 1.6.1
 
 # Primes.jl の導入
 
