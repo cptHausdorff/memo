@@ -14,7 +14,7 @@ Julia の方で IJulia というパッケージをインストールすると Ju
 
 - Anaconda Individual Edition をインストールする．[https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
 - Anaconda Prompt (anaconda3) を起動して「conda install -c conda-forge notebook」を入力して実行した．
-- Julia 1.6.1 を起動．REPL で ] とすると (@v1.6) pkg> が表示される．(@v1.6) pkg> add IJulia とした．数分でインストールが終わる．
+- Julia 1.6.1 を起動．REPL で ] とすると (@v1.6) pkg> が表示される．(@v1.6) pkg> add IJulia とした（I は大文字の i）．数分でインストールが終わる．
 
 # Primes.jl の導入
 
