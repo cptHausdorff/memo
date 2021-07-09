@@ -3,9 +3,12 @@ YouTube動画
 ([https://youtu.be/vz9cZnB1d1c](https://youtu.be/vz9cZnB1d1c))
 を視聴したときのメモ．
 
+- このファイルの場所 [https://github.com/cptHausdorff/memo/blob/5f9625681675a400de33267dbefbcd29ccffc159/p-value.md](https://github.com/cptHausdorff/memo/blob/5f9625681675a400de33267dbefbcd29ccffc159/p-value.md)
+- ASA声明の日本語訳 [http://www.biometrics.gr.jp/news/all/ASA.pdf](http://www.biometrics.gr.jp/news/all/ASA.pdf)
+
 # 検定とP値のさまざまな誤解
 
-以下に箇条書きしたものは全て__誤解__である．
+以下に箇条書きしたものは全て __誤解__ である．
 
 - P値は帰無仮説が正しい確率である．
 - 統計的に有意であることは，科学的に重要な関係があることを意味する．
@@ -39,7 +42,7 @@ YouTube動画
 検定，P値で調べていること．
 
 - 帰無仮説だけではない．
-- __データ獲得の方法から結果の提示にいたるあらゆる仮定が正しいこと__が前提．
+- __データ獲得の方法から結果の提示にいたるあらゆる仮定が正しいこと__ が前提．
 - P値がアルファレベルよりも大きい場合，「帰無仮説が正しい」とは __判断できない．__
 	「帰無仮説が誤っているとは判断できなかった」と判断を保留する．
 
