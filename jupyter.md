@@ -15,8 +15,8 @@ Anaconda をインストールすると Jupyter Notebook も使えるように�
 Julia の方で IJulia というパッケージをインストールすると Jupyter Notebook で Julia が使えるようになる．
 
 - Anaconda Individual Edition をインストールする．https://www.anaconda.com/products/individual
-- Anaconda Prompt (anaconda3) を起動して「conda install -c conda-forge notebook」を入力して実行した．
-- Julia 1.6.1 を起動．REPL で ] とすると (@v1.6) pkg> が表示される．(@v1.6) pkg> add IJulia とした．数分でインストールが終わる．
+- Anaconda Prompt (anaconda3) を起動して`conda install -c conda-forge notebook` を入力して実行した．
+- Julia 1.6.1 を起動．REPL で ] とすると `(@v1.6) pkg>` が表示される．`(@v1.6) pkg> add IJulia` とした．数分でインストールが終わる．
 - これで Jupyter Notebook (anaconda3) において Julia 1.6.1 が使えるようになっているはず
 
 # 既存の notebook の kernel を Julia 1.6.1 にする方法
@@ -27,7 +27,7 @@ Julia の方で IJulia というパッケージをインストールすると Ju
 
 素数関連のパッケージ
 
-- REPLで julia> import Pkg; Pkg.add("Primes")  をする．
+- REPLで `julia> import Pkg; Pkg.add("Primes")`  をする．
 
 # jupyter_contrib_nbextensions の導入
 
@@ -37,7 +37,7 @@ Jupyter Notebook で自動で章番号をつけたりしてくれる
 
 # Plots.jl の導入
 
-- REPL で julia> import Pkg; Pkg.add("Plots") をする．
+- REPL で `julia> import Pkg; Pkg.add("Plots")` をする．
 - 結構時間かかる．
 - Your GR installation is incomplete. Rerunning build step for GR package. のエラーが出る場合は julia> Pkg.build("GR") すれば解決した．
 
@@ -45,7 +45,7 @@ Jupyter Notebook で自動で章番号をつけたりしてくれる
 
 Mahalanobis 距離が入っている．
 
-- REPL で julia> import Pkg; Pkg.add("Distances") をする．
+- REPL で `julia> import Pkg; Pkg.add("Distances")` をする．
 - インストールはすぐ終わる．
 - 
 
