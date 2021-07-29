@@ -1,15 +1,14 @@
 Promise
 =======
 
+- 非同期処理の完了もしくは失敗を表すオブジェクト
+
 参考
 ----
 
 - [Using Promises/MDN Web Docs][1]
 
-
 [1]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
-
-- 非同期処理の完了もしくは失敗を表すオブジェクト
 
 関数が返す Promise の使い方
 -----------------------
